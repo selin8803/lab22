@@ -6,10 +6,10 @@
 <VBox alignment="CENTER" spacing="10.0"
       xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.lab22.LoginController">
+      fx:controller="com.example.lab22.HelloController">
 
     <children>
-        <Label text="Users login" />
+        <Label text="Login System" />
 
         <TextField fx:id="usernameField" promptText="Enter username" />
 
