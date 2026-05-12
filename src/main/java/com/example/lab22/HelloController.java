@@ -57,7 +57,11 @@ public class HelloController {
             messageLabel.setText("User does not exist");
             return;
         }
-
+        // בדיקה אם יש שדות ריקים
+        if(username.trim().isEmpty() || password.trim().isEmpty()) {
+            messageLabel.setText("Please fill all fields");
+            return;
+        }
         // wrong password
         if (!user.getPassword().equals(password)) {
 
